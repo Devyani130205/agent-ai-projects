@@ -25,9 +25,10 @@ Some data may not leave your building, or your country, however good and cheap t
 2. **Score** the survivors on cost, speed and quality with weights the *business* chooses.
 3. **Verify** the winner on your own examples. (Session 17 gives you the tools; today you do a tiny version.)
 
+
+
 ## Three questions to arrive with
 - A bank wants a chatbot for public product questions *and* a system that reads customers' salary slips. Should they use the same model? Why or why not?
-<<<<<<< HEAD
 --They require different architectures because reading salary slips involves highly sensitive financial data that must stay on-premises for strict security and compliance, whereas a public product chatbot requires a fast, scalable cloud model to efficiently handle high-volume public traffic without needing internal data privacy.
 
 - Your laptop can run a small model for free. Why can't it be the FAQ bot for 20,000 calls a day?
@@ -35,7 +36,3 @@ Some data may not leave your building, or your country, however good and cheap t
 
 
 - A leaderboard says Model A beats Model B by 4 points. What would you still want to check before switching?--> yes u should check it in terms of --> cost, speed, quality. then look at the matrix criteria, then right tool for the job.if it's match for the actual specifiations of your problem statement.
-=======
-- Your laptop can run a small model for free. Why can't it be the FAQ bot for 20,000 calls a day?
-- A leaderboard says Model A beats Model B by 4 points. What would you still want to check before switching?
->>>>>>> f61c988f9a1aa23b81f990b545ff7f25005f055f
