@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # agent-ai-projects
 =======
+=======
+>>>>>>> f61c988f9a1aa23b81f990b545ff7f25005f055f
 # GenAI · Agentic AI · AI Agents — course repo
 
 Instructor: **Ajit Byru** · `ajitbyru@gmail.com` · github.com/byruajit
@@ -104,6 +107,18 @@ uv run pytest tests/test_s10.py          # checkpoint (works offline)
 ```
 Pre-read: `module01/reading_landscape.md` (10 minutes). Terms: `module01/terms_s10.md`. Catalog numbers are **indicative** — verifying two of them is part of the lab. To submit: run the last notebook cell, then upload `module01/s10_matrix_output.md` through the submission form (personal repositories start at Session 14).
 
+<<<<<<< HEAD
+=======
+## Showcase A2 — Insurance (workflow)
+
+```powershell
+uv run python showcase/a2_insurance/insurance_claim.py --all
+uv run pytest showcase/a2_insurance/test_a2_insurance.py
+```
+Free-text claim -> the model extracts a structured form -> code routes by severity -> a template answers.
+First showcase in the course's 4x4 matrix (row A: workflow, column: Insurance). See showcase/a2_insurance/README.md.
+
+>>>>>>> f61c988f9a1aa23b81f990b545ff7f25005f055f
 ## Layout
 ```
 module01/                   Session 9b notebook, helpers, pre-read
@@ -112,9 +127,16 @@ list_models.py              which models your key can use
 tests/test_setup.py         Session 2 checkpoint
 tests/test_s09.py           Session 9b checkpoint
 tests/test_s10.py           Session 10 checkpoint
+<<<<<<< HEAD
+=======
+showcase/a2_insurance/      Showcase A2 (Insurance workflow) + its own tests
+>>>>>>> f61c988f9a1aa23b81f990b545ff7f25005f055f
 cheatsheet/python-for-agents.md
 .env.example                copy to .env
 pyproject.toml              pinned dependencies (uv sync)
 ```
 Modules are added as the course progresses (`module01/ … module14/`).
+<<<<<<< HEAD
 >>>>>>> ed0cfba (Course repo: Session 1 Git, Session 2 setup)
+=======
+>>>>>>> f61c988f9a1aa23b81f990b545ff7f25005f055f
